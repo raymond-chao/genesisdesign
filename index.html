@@ -6,19 +6,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/aafa7cdabb.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="styles/normalize.css">
 <link rel="stylesheet" href="styles/index.css">
     <title>Genesis Design</title>
 </head>
-<body>
-    <header class="header-main">
-        <img class="header-main__logo" src="" alt="Genesis logo">
-            <nav class="header-main__navbar-elements">
+<body class="body__header">
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Genesis-logo"></a>
+            <nav class="header-container__navbar">
                 <ul>
-                    <li>Projects</li>
-                    <li>Contact</li>
+                    <li><a href="pages/projects-detail.html">Projects Details</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
             </nav>
+        </div>
     </header>
     <main>
         <section class="section-top">
@@ -34,18 +37,18 @@
         </section>
         <section class="gallery">
             <div class="gallery-grid-container">
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="1"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="2"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="3"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="4"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="5"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="6"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="7"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="8"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="9"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="10"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="11"></div>
-                <div class="gallery-grid-item-1"> <img class="grid-image" src="" alt="12"></div>
+                <div class="gallery-grid-item-1"> <img class="grid-image" src="img/gridpic1.png" alt="1"></div>
+                <div class="gallery-grid-item-2"> <img class="grid-image" src="img/gridpic2.png" alt="2"></div>
+                <div class="gallery-grid-item-3"> <img class="grid-image" src="img/gridpic3.png" alt="3"></div>
+                <div class="gallery-grid-item-4"> <img class="grid-image" src="img/gridpic4.png" alt="4"></div>
+                <div class="gallery-grid-item-5"> <img class="grid-image" src="img/gridpic5.png" alt="5"></div>
+                <div class="gallery-grid-item-6"> <img class="grid-image" src="img/gridpic6.png" alt="6"></div>
+                <div class="gallery-grid-item-7"> <img class="grid-image" src="img/gridpic7.png" alt="7"></div>
+                <div class="gallery-grid-item-8"> <img class="grid-image" src="img/gridpic8.png" alt="8"></div>
+                <div class="gallery-grid-item-9"> <img class="grid-image" src="img/gridpic9.png" alt="9"></div>
+                <div class="gallery-grid-item-10"> <img class="grid-image" src="img/gridpic10.png" alt="10"></div>
+                <div class="gallery-grid-item-11"> <img class="grid-image" src="img/gridpic11.png" alt="11"></div>
+                <div class="gallery-grid-item-12"> <img class="grid-image" src="img/gridpic12.png" alt="12"></div>
             </div>
         </section>
         <section class="services">
@@ -69,53 +72,51 @@
                     </div>
             </div>
         </section>
-        <section class="awwards">
-            <div class="awwards-container">
-                <div class="awwards-text">Awwards</div>
-                <div class="awwards-container-category">
-                    <p class="category-1">Site of the day</p>
-                    <p class="category-2">Best navigation</p>
-                </div>
-                <div class="awards__app">
-                    <p class="awards-kit">Genesis UI Kit</p>
-                    <p class="awards-kit-text">Application that helps to find nearest sport centres</p>
-                    <p class="awards-template">Genesis Template</p>
-                    <p class="awards-template-text">Application that helps to find nearest sport centres</p>
-                </div>
-                <div class="awards__year">
-                    <p class="awards-year-1">2018</p>
-                    <p class="awards-year-1">2018</p>
-                </div>
-                </div>
-                </div>
-            </div>
-            <section class="css-design-awards">
-                <div class="design-container">
-                    <div class="design-text">CSSDesignAwards</div>
-                    <div class="design-container-category">
-                        <p class="category-1">Site of the day</p>
-                        <p class="category-2">Best navigation</p>
+        <section class="awards">
+            <div class="awards__container">
+                <div class="awards__awwwards-container">
+                    <div class="awards__title">Awwwards</div>
+                    <div class="awards__category">
+                        <p class="awards__category-1"> Site of the day</p>
+                        <p class="awards__category-2">Best navigation</p>
                     </div>
-                    <div class="design-app">
-                        <p class="design-kit">Genesis UI Kit</p>
-                        <p class="design-kit-text">Application that helps to find nearest sport centres</p>
-                        <p class="design-template">Genesis Template</p>
-                        <p class="design-template-text">Application that helps to find nearest sport centres</p>
+                    <div class="awards__app">
+                        <p class="awards__app-1">Genesis UI Kit</p>
+                        <p class="awards__app-1__info">Application that helps to find nearest sport centres</p>
+                        <p class="awards__app-2">Genesis Template</p>
+                        <p class="awards__app-1__info">Application that helps to find nearest sport centres</p>
                     </div>
-                    <div class="design-year-container">
-                        <p class="design__year">2017</p>
-                        <p class="design__year">2016</p>
+                    <div class="awards__year">
+                        <p class="awards__year-1">2018</p>
+                        <p class="awards__year-1">2018</p>
+                    </div>
+                </div>
+                <div class="awards__CssDesignAwards-container">
+                    <div class="awards__title">CSSDesignAwards</div>
+                    <div class="awards__category">
+                        <p class="awards__category-1"> Site of the day</p>
+                        <p class="awards__category-2">Best navigation</p>
+                    </div>
+                    <div class="awards__app">
+                        <p class="awards__app-1">Genesis UI Kit</p>
+                        <p class="awards__app-1__info">Application that helps to find nearest sport centres</p>
+                        <p class="awards__app-2">Genesis Template</p>
+                        <p class="awards__app-1__info">Application that helps to find nearest sport centres</p>
+                    </div>
+                    <div class="awards__year">
+                        <p class="awards__year-1">2017</p>
+                        <p class="awards__year-1">2016</p>
                     </div>
                     </div>
                     </div>
                 </div> 
         </section>
         <footer class="footer-container">
-            <a href="index.html"><img class="logo" src="images/logo.svg" alt="Genesis-logo"></a>
+            <a href="index.html"><img class="logo" src="img/Logo.svg" alt="Genesis-logo"></a>
             <div class="footer-container">
                 <nav class="footer-container-navbar">
                     <ul>
-                        <li><a href="pages/projects.html">Projects</a></li>
+                        <li><a href="pages/project-detail.html">Project Detail</a></li>
                         <li><a href="pages/contact.html">Contact</a></li>
                     </ul>
                 </nav>

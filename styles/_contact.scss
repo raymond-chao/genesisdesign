@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-top-section {
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    gap: 9em;
+    margin-top: 3em;
+
+    &-left {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        font-family: fonts.$main-font;
+        flex-shrink: 1;
+
+        &-title {
+            font-style: bold;
+            font-weight: 650;
+            font-size: 40px;
+            line-height: 55px;
+            margin-top: 0;
+            max-width: 650px;
+        }
+
+        &-text {
+            font-size: 16px;
+            line-height: 26px;
+            font-style: normal;
+            opacity: 80%;
+            max-width: 445px;
+        }
+    }
+
+    &-right {
+        font-family: fonts.$main-font;
+        margin-right: 10%;
+        max-width: 475px;
+        width: 100%;
+        flex-shrink: 2;
+
+        &-form {
+            font-size: 16px;
+            font-style: bold;
+            font-weight: 650;
+
+            &-label {
+                margin-bottom: 3em;
+                display: flex;
+                flex-direction: column;
+                opacity: 60%;
+            }
+        }
+    }
+}
+
+.input-field {
+   margin-top: 1em;
+}
+
+.input-field:focus {
+    outline: none;
+    box-shadow: 0px 2px 0px #4A4FF2;
+}
+
+.btn {
+    background-color: #4A4FF2;
+    width: 125px;
+    height: 50px;
+    color:#ffffff;
+    border: none;
+}
+
+.btn:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+    background-color: #FFB039;
+}
+
+#name {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #9797973b;
+    max-width: 475px;
+}
+
+#email {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #9797973b;
+    max-width: 475px;
+}
+
+#message {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #9797973b;
+    max-width: 475px;
+}
+
+
+.contact-map-section {
+    margin-top: 5em;
+    margin-bottom: 2em;
+    margin-left: 10%;
+    margin-right: 10%;
+
+    &-container {
+        max-width: 1110px;
+    }
+
+    &-image {
+        width: 100%;
+        object-fit: cover;
+    }
+}

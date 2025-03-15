@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.projects-top-section {
+    display: flex;
+    max-width: 1140px;
+    width: 100%;
+    margin: auto;
+    gap: 5em;
+    margin-top: 3em;
+
+    &-left {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+        max-width: 635px;
+        gap: 2em;
+        font-family: fonts.$main-font;
+
+        &-title {
+            font-style: bold;
+            font-weight: 650;
+            font-size: 40px;
+            line-height: 55px;
+            max-width: 475px;
+            margin-top: 0;
+        }
+
+        &-paragraph {
+            font-size: 16px;
+            line-height: 26px;
+            font-style: normal;
+            opacity: 80%;
+        }
+    }
+
+    &-right {
+        font-family: fonts.$main-font;
+        margin-right: 10%;
+        max-width: 335px;
+        width: 100%;
+
+        &-container {
+            margin-top: 2.2em;
+            display: flex;
+            flex-direction: row;
+            border-bottom: solid rgba(0, 0, 0, 0.169);
+            font-style: bold;
+            font-size: 18px;
+        }
+
+        &-title {
+            width: 7em;
+            opacity: 50%;
+        }
+
+        &-text {
+            width: 10em;
+            max-width: 164px;
+            font-style: bold;
+            margin-bottom: 1em;
+        }
+    }
+}
+
+
+.projects-img-section {
+    margin-top: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+   
+    &-container {
+        max-width: 1110px;
+    }
+
+    &-image {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+
+.projects-text-section {
+    margin-top: 5em;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4em;
+
+    &-container {
+        max-width: 1110px;
+    }
+
+    &-text {
+        font-family: fonts.$main-font;
+        font-style: normal;
+        font-size: 16px;
+        line-height: 26px;
+        opacity: 80%;
+    }
+}
+
+
+.projects-gallery-section {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 4em;
+
+    &-container {
+        display: flex;
+        justify-content: center;
+        max-width: 1110px;
+        width: 100%;
+        gap: 1.5em;
+    }
+
+    &-gallery-image {
+        width: 100%;
+        max-width: 32%;
+        height: auto;
+    }
+}

@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 
-/* ---------- First section ---------- */
 
 .section-top {
     display: flex;
@@ -53,14 +52,13 @@
 .focus {
     color: #4A4FF2;
 }
-/* ---------- Second section ---------- */
 .gallery {
     margin-top: 10em;
     margin-bottom: 10em;
     margin-left: 10%;
     margin-right: 10%;
 
-    &__grid-container {
+    &-grid-container {
         display: grid;
         gap: 1em;
         justify-content: center;
@@ -100,51 +98,51 @@
         "i4 i4 i4 i8 i8 i8 i12 i12 i12";
     }
 
-    &__grid-item__1 {
+    &-grid-item-1 {
         grid-area: i1;
     }
 
-    &__grid-item__2 {
+    &-grid-item-2 {
         grid-area: i2;
     }
 
-    &__grid-item__3 {
+    &-grid-item-3 {
         grid-area: i3;
     }
 
-    &__grid-item__4 {
+    &-grid-item-4 {
         grid-area: i4;
     }
 
-    &__grid-item__5 {
+    &-grid-item-5 {
         grid-area: i5;
     }
 
-    &__grid-item__6 {
+    &-grid-item-6 {
         grid-area: i6;
     }
 
-    &__grid-item__7 {
+    &-grid-item-7 {
         grid-area: i7;
     }
 
-    &__grid-item__8 {
+    &-grid-item-8 {
         grid-area: i8;
     }
 
-    &__grid-item__9 {
+    &-grid-item-9 {
         grid-area: i9;
     }
 
-    &__grid-item__10 {
+    &-grid-item-10 {
         grid-area: i10;
     }
 
-    &__grid-item__11 {
+    &-grid-item-11 {
         grid-area: i11;
     }
 
-    &__grid-item__12 {
+    &-grid-item-12 {
         grid-area: i12;
     }
 }
@@ -154,7 +152,6 @@
     height: 100%;
 }
 
-// -------- Services ---------
 
 .services {
     max-width: 1079px;
@@ -184,7 +181,7 @@
     opacity: 60%;
     font-size: 18px;
 
-    &__one {
+    &-one {
         display: flex;
         gap: 2.5em;
     }
@@ -194,8 +191,6 @@
         line-height: 2em;
     }
 }
-
-// -------- Awards ---------
 
 .awards {
     margin-left: 10%;
@@ -209,25 +204,25 @@
     border-bottom: solid rgba(0, 0, 0, 0.168);
     padding-top: 2em;
 
-    &-container {
+    &__container {
         max-width: 1110px;
         width: 100%;
         margin: auto;
     }
    
-    &-awwwards-container {
+    &__awwwards-container {
         display: flex;
         justify-content: space-between;
     }
 
-    &-design-container {
+    &__CssDesignAwards-container {
         display: flex;
         justify-content: space-between;
         border-top: solid rgba(0, 0, 0, 0.168);
         padding-top: 3em;
     }
 
-    &-text {
+    &__title {
         font-size: 22px;
         font-style: bold;
         font-weight: 700;
@@ -235,7 +230,7 @@
         margin-right: 1em;
     }
 
-    &-category {
+    &__app {
         max-width: 170px;
         font-style: normal;
         font-size: 16px;
@@ -255,7 +250,7 @@
         }
     }
 
-    &-category {
+    &__category {
      font-size: 18px;
      font-style: bold;
      font-weight: 700;
@@ -274,4 +269,4 @@
             margin-bottom: 11.5em;
         }
     }
-}	
+}
